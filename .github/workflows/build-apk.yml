@@ -31,7 +31,7 @@ jobs:
 
       - name: Build APK
         run: |
-          cd project
+          cd project/PersonalManagerAndroid
           gradle assembleDebug
 
       - name: Upload APK
